@@ -8,6 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
 	<h2>Job Application Form</h2>
 
     <!-- Name -->
@@ -16,7 +17,7 @@
 
     <!-- Email -->
     <label for="email">Email:</label><br>
-    <input type="email" id="email" required><br><br>
+    <input type="email" id="email" required><br>
 
     <!-- Gender -->
     <label>Gender:</label><br>
@@ -24,11 +25,11 @@
     <label for="male">Male</label>
 
     <input type="radio" id="female" name="gender">
-    <label for="female">Female</label><br><br>
+    <label for="female">Female</label><br>
 
     <!-- Laptop Brands -->
     <label for="laptop">Laptop Brands:</label><br>
-    <select id="laptop">
+    <select id="laptop" name="laptop">
       <option>Apple</option>
       <option>Asus</option>
       <option>HP</option>
@@ -36,19 +37,19 @@
 
     <!-- Age -->
     <label for="age">Age:</label><br>
-    <input type="number" id="age" required><br><br>
+    <input type="number" id="age" required><br>
 
     <!-- Date of Birth -->
     <label for="dob">Date of Birth:</label><br>
-    <input type="date" id="dob" required><br><br>
+    <input type="date" id="dob" required><br>
 
     <!-- Password -->
     <label for="password">Password:</label><br>
-    <input type="password" id="password" required><br><br>
+    <input type="password" id="password" required><br>
 
     <!-- Portfolio URL -->
     <label for="portfolio">Portfolio URL:</label><br>
-    <input type="url" id="portfolio"><br><br>
+    <input type="url" id="portfolio"><br>
 
     <!-- Submit -->
     <button type="submit">Submit</button>
